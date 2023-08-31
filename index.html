@@ -52,10 +52,17 @@
         width: 100%;
       }
 
+      .border-r {
+        border-right: 1px solid #fff;
+      }
+
       @media screen and (max-width: 600px) {
         .col-responsive {
           display: block;
-          width: 100%;
+          width: 100% !important;
+        }
+        .border-r {
+          border: 0;
         }
       }
     </style>
@@ -148,6 +155,41 @@
                 <tr>
                   <td></td>
                   <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="100%">
+            <!-- BANNER -->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="100%">
+            <!-- NAV -->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tbody>
+                <tr>
+                  <td class="col-responsive" style="background-color: #000; color: #fff; margin-bottom: 2px; padding: 6px 0; width: 33.3%;" align="center">
+                    <a class="border-r" style="color: #fff; display: block; text-align: center;" href="#">Home</a>
+                  </td>
+                  <td class="col-responsive" style="background-color: #000; color: #fff; margin-bottom: 2px; padding: 6px 0; width: 33.3%;" align="center">
+                    <a class="border-r" style="color: #fff; display: block; text-align: center;" href="#">About us</a>
+                  </td>
+                  <td class="col-responsive" style="background-color: #000; color: #fff; margin-bottom: 2px; padding: 6px 0; width: 33.3%;" align="center">
+                    <a style="color: #fff; display: block; text-align: center; " href="#">Contact us</a>
+                  </td>
                 </tr>
               </tbody>
             </table>
